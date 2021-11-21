@@ -2,7 +2,7 @@
 
 Not all schools provide photos of their dorm rooms, and it can be difficult for students to know what to bring or how to prepare when they don't know what their room is going to look like. Our goal is to make this process easier, as well as allow students to show off their cool dorm designs!
 
-### Visit the [DormView Website](dormviewapp.com) to download the app on iOS and Android!
+### Visit the [DormView Website](https://dormviewapp.com) to download the app on iOS and Android!
 
 ---
 
@@ -41,7 +41,7 @@ I began looking around for a way to store my data in a relational SQL database. 
 
 As someone at the time with almost no SQL experience, setting up a database and making tables was extremely easy. As I began to become more comfortable, I really liked how Supabase allows you to write SQL code and have full control of your database if desired. This allowed me to set up row level security rules and create triggers to send users notifications when their photos are approved. I also decided to use Supabase for file storage (for user photos) as well, since it would integrate with the database and allow me to link photo table entries with links to photo files, as well as set up security rules for accessing photos. Supabase also provided a simple authentication api which integrated with the SQL database as well.
 
-This isn't an ad for Supabase by the way, I just think they're really cool and you should [check them out](supabase.com) :)
+This isn't an ad for Supabase by the way, I just think they're really cool and you should [check them out](https://supabase.com) :)
 
 For push notifications, I stuck with Firebase Cloud Messaging as it was free and easy to set up. I simply send a POST request from the Supabase database to a Firebase Cloud Function that sends a notification whenever a school/dorm/photo is approved.
 
