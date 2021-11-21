@@ -8,7 +8,7 @@ Not all schools provide photos of their dorm rooms, and it can be difficult for 
 
 ## Technical Details
 
-This is just a brief overview, see [About This Project](#about-this-project) below.
+This is just a brief overview, see [About This Project](#about-this-project) below. Additionally, the public repo for this project does not contain all of the code, just the majority of the React Native code. This project was made with React Native Bare Workflow, so there are small amounts of native code here and there, as well as several configuration files that are not in this repo.
 
 ### Front End
 
@@ -46,3 +46,15 @@ This isn't an ad for Supabase by the way, I just think they're really cool and y
 For push notifications, I stuck with Firebase Cloud Messaging as it was free and easy to set up. I simply send a POST request from the Supabase database to a Firebase Cloud Function that sends a notification whenever a school/dorm/photo is approved.
 
 Finally, I added in Google AdMob and Google Analytics to serve ads in the app to monetize it and provide a way for me to keep track of its progress. Monetezation was not a main goal for this project whatsoever, but I figured it couldn't hurt. I tried to place ads in as non-instrusive of a way as possible.
+
+---
+
+## Next Steps
+
+The next steps for me for this project are to create a web app which provides the same features as the mobile app in order to allow users to browse and share photos from their computers. I haven't gotten around to this yet, but I'm hoping that I will be able to reuse much of the mobile app React Native code in a React web app.
+
+---
+
+## Questions? Feedback?
+
+I'd love to hear from you! Any communication should be sent to contact@dormviewapp.com
