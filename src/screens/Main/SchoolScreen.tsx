@@ -8,7 +8,7 @@ import FastImage from 'react-native-fast-image';
 import Animated, {Extrapolate} from 'react-native-reanimated';
 import StaticSafeAreaInsets from 'react-native-static-safe-area-insets';
 import styled from 'styled-components/native';
-import defaultSchool from '../../assets/images/defaultSchool.png';
+import defaultSchool from '../../assets/images/defaultSchool.jpg';
 import Banner from '../../components/ads/Banner';
 import LoadingScreen from '../../components/atoms/LoadingScreen';
 import PendingRibbon from '../../components/atoms/PendingRibbon';

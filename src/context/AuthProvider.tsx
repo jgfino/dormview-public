@@ -162,7 +162,6 @@ const AuthProvider = ({children}: {children: any}) => {
     let deviceToken;
     try {
       deviceToken = await messaging().getToken();
-      console.log(deviceToken);
     } catch (e) {
       console.log('Error getting device token', e);
       return e;
