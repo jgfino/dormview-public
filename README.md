@@ -2,7 +2,8 @@
 
 Not all schools provide photos of their dorm rooms, and it can be difficult for students to know what to bring or how to prepare when they don't know what their room is going to look like. Our goal is to make this process easier, as well as allow students to show off their cool dorm designs!
 
-### Visit the [DormView Website](https://dormviewapp.com) to download the app on iOS and Android!
+[App Store](https://apps.apple.com/us/app/dormview/id1581697184)
+[Play Store](https://play.google.com/store/apps/details?id=com.jgfino.dormview)
 
 ---
 
